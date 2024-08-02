@@ -1,0 +1,50 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    #ffffff,
+    #cffcf1,
+    #defafe,
+    #00d9f5
+  );
+}
+
+.buttons-class {
+  display: flex;
+  flex-direction: column;
+  min-width: 30%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image-bg-container {
+  width: 30%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.startRestart {
+  height: 30px;
+  width: 30px;
+}
+
+.restartImg {
+  height: 30px;
+}
+.increaseAndDecreaseTime {
+  display: flex;
+  justify-content: space-around;
+  min-width: 130px;
+}
+.startButton {
+  margin-right: 10px;
+}
